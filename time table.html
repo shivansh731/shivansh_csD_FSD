@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      max-width: 800px;
+      background: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    caption {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #333;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    th {
+      background: #007bff;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+
+    tr:hover {
+      background: #eaf3ff;
+    }
+
+    .time {
+      background: #f1f1f1;
+      font-weight: bold;
+    }
+
+    .subject {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Weekly Class Timetable</caption>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+      <th>Thursday</th>
+      <th>Friday</th>
+    </tr>
+    <tr>
+      <td class="time">9:00 - 10:00</td>
+      <td class="subject">Math</td>
+      <td class="subject">English</td>
+      <td class="subject">Physics</td>
+      <td class="subject">Chemistry</td>
+      <td class="subject">Biology</td>
+    </tr>
+    <tr>
+      <td class="time">10:00 - 11:00</td>
+      <td class="subject">English</td>
+      <td class="subject">Math</td>
+      <td class="subject">Computer</td>
+      <td class="subject">History</td>
+      <td class="subject">Geography</td>
+    </tr>
+    <tr>
+      <td class="time">11:00 - 12:00</td>
+      <td class="subject">Physics</td>
+      <td class="subject">Biology</td>
+      <td class="subject">Math</td>
+      <td class="subject">Chemistry</td>
+      <td class="subject">Sports</td>
+    </tr>
+    <tr>
+      <td class="time">12:00 - 1:00</td>
+      <td colspan="5" style="background:#ffeeba; font-weight:bold;
